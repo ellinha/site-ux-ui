@@ -46,13 +46,13 @@
 	text-shadow: var(--text-shadow);
 }
 
-.text-shadow {
+.pagina {
   position: relative;
   color: #fff;
   text-decoration: none;  
 }
 
-.text-shadow:before {
+.pagina:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -67,7 +67,7 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-.text-shadow:hover:before {
+.pagina:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
