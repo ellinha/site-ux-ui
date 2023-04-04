@@ -100,25 +100,7 @@
     color: var(--verde-if-escuro);
 }
 
-.titulo {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
-.titulo-artes {
-    font-size: 130px;
-    text-decoration: underline var(--verde-if-claro);
-}
-
-.subtitulo-artes {
-    font-size: 32px;
-    color: var(--verde-if);
-
-}
-
-.sub-subtitulo-artes {
-    font-size: 32px;
-    color: var(--verde-if);
-}
 
 .titulo-teoria{
   font-family: Georgia, serif;
@@ -181,13 +163,6 @@
     width: 80%;
 }
 
-.titulo-introducao-video {
-    font-size: 75px;
-    color: var(--verde-if-escuro);
-    margin-bottom: 10px;
-    cursor: default;
-}
-
 .container {
     width: 100%;
     margin-right: auto;
@@ -226,11 +201,6 @@
     justify-content: space-evenly;
 }
 
-.flexbox-horizontal-videos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 
 .flexbox-vertical-links {
     display: flex;
@@ -244,14 +214,6 @@
     font-size: 28px;
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: capitalize;
-}
-
-.texto-item-links-prehistoria {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-    font-weight: 500;
     text-transform: capitalize;
 }
 
