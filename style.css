@@ -188,21 +188,6 @@
     cursor: default;
 }
 
-.video-introducao p {
-    text-align: left;
-    font-size: 20px;
-    transition: 0.2s all;
-    cursor: default;
-}
-
-.container-paragrafo-introducao-video {
-    display: inline-block;
-}
-
-.video-introducao p:hover {
-    color: var(--verde-if-escuro);
-}
-
 .container {
     width: 100%;
     margin-right: auto;
