@@ -69,3 +69,456 @@
 .text-justify {
 	text-align: justify;
 }
+
+:root {
+    --verde-if: #006600;
+    --verde-if-escuro: #00420c;
+    --verde-if-claro: #71C837;
+    --bege-if: #e8e7e7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.body-pagina-principal {
+    background-image: url(img/fundodois.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #0b0b0b;
+}
+
+.home-page {
+    text-align: center;
+    margin: 16em 0;
+    color: var(--verde-if-escuro);
+}
+
+.titulo {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo-artes {
+    font-size: 130px;
+    text-decoration: underline var(--verde-if-claro);
+}
+
+.subtitulo-artes {
+    font-size: 32px;
+    color: var(--verde-if);
+
+}
+
+.sub-subtitulo-artes {
+    font-size: 32px;
+    color: var(--verde-if);
+}
+
+.titulo-teoria{
+  font-family: Georgia, serif;
+   text-align: center;
+  font-size: 50px;
+  color: 	#005700;
+}
+
+.subtitulo-teoria{
+  font-family: Georgia, serif;
+   text-align: left;
+  font-size: 30px;
+  color: 	#546732;
+}
+
+.sub-subtitulo-teoria{
+  font-family: Georgia, serif;
+   text-align: left;
+  font-size: 22px;
+  color: 	#49794f;
+}
+
+.paragrafo-teoria{
+  text-align: justify;
+  font-family: Times, Times New Roman, serif;
+  font-size: 17px;
+  letter-spacing: 0.7px;
+}
+
+.image-teoria {
+  text-align: center;
+}
+
+.imagem-borda-teoria{
+  border-radius: 10px;
+}
+
+.titulo-questao{
+  font-family: arial;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.paragrafo-questao{
+  font-family: arial;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.main-raised {
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 14%) 0px 16px 24px 2px, 
+    rgb(0 0 0 / 12%) 0px 6px 30px 5px,
+     rgb(0 0 0 / 20%) 0px 8px 10px -5px;
+}
+
+.main {
+    background: rgb(255, 255, 255);
+    width: 80%;
+}
+
+.titulo-introducao-video {
+    font-size: 75px;
+    color: var(--verde-if-escuro);
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.video-introducao p {
+    text-align: left;
+    font-size: 20px;
+    transition: 0.2s all;
+    cursor: default;
+}
+
+.container-paragrafo-introducao-video {
+    display: inline-block;
+}
+
+.video-introducao p:hover {
+    color: var(--verde-if-escuro);
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.pagina-principal-conteiner {
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 14%) 0px 16px 24px 2px, 
+    rgb(0 0 0 / 12%) 0px 6px 30px 5px, 
+    rgb(0 0 0 / 20%) 0px 8px 10px -5px;
+}
+
+.pagina-principal-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-pagina-principal {
+    margin: 0;
+    padding: 0;
+
+}
+
+.flexbox-horizontal-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flexbox-horizontal-videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flexbox-vertical-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto-item-links {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+.texto-item-links-prehistoria {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.container-text a {
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgb(12, 94, 46);
+    padding: 1px 5px;
+    border-radius: 10px;
+}
+
+.container-text {
+    height: 100%;
+    width: 100%;
+    padding-top: 160px;
+    box-shadow: rgba(50, 50, 93, 0.116) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.texto-div {
+    vertical-align: bottom;
+}
+
+@keyframes background-links-in {
+    0% {
+        background-size: 100%;
+    }
+
+    75% {
+        background-size: 118%;
+    }
+
+    100% {
+        background-size: 120%;
+    }
+
+}
+
+@keyframes background-links-out {
+    0% {
+        background-size: 120%;
+    }
+
+    75% {
+        background-size: 102%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+
+}
+
+.item-flexbox-links-arte-na-pre-historia {
+    background-image: url(https://3.bp.blogspot.com/-O8JfZhIkQuw/WJhmrpgwxWI/AAAAAAAABMc/8afkN7-aiHEmC_NbT-8RlQVZJhU70k4pACLcB/s1600/Taureau%2Bnoir%2Bet%2Bvache%2Brouge.jpeg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(1.4);
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-arte-na-pre-historia:hover {
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+    background-size: 120%;
+}
+
+.item-flexbox-links-elementos-básicos-da-música {
+    background-image: url(https://thumb.mp-farm.com/87343271/preview.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-elementos-básicos-da-música:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+}
+
+.item-flexbox-links-renascimento {
+    background-image: url(https://i0.wp.com/arteref.com/wp-content/uploads/2019/07/Releitura-A-criac%CC%A7a%CC%83o-de-Ada%CC%83o.jpg?fit=900%2C700&ssl=1);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-renascimento:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
+
+.item-flexbox-links-vanguardas {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqEFS2CBx7R2c5mq1zkR5eWqoMNBQHlpg0Qw&usqp=CAU);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-vanguardas:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
+
+
+.item-flexbox-links-artes-cenicas {
+    background-image: url(https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_518,q_65,w_640/v1/clients/saltlake/Artists_of_Ballet_West_in_Nicolo_Fonte_s_Carmina_Burana_Photo_by_Luke_Isley_7_cb18ce3e-d5c5-4920-99be-5090ef614cf8.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-artes-cenicas:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
+
+
+.item-flexbox-links-historia-da-danca {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeTKkntOxHHKuBegBNGDhNfasBPFoVHvv1T5C1xTu4gIZA6zjCriVshD4-IXLrBuAtvnI&usqp=CAU);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-historia-da-danca:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
+
+.item-flexbox-links-arte-contemporanea {
+    background-image: url(https://brigadeiraonews.files.wordpress.com/2017/07/pop.jpg?w=840);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-arte-contemporanea:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
+
+.item-flexbox-links-barroco-no-brasil {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyTKTpH_4aDGgKciKorO8vT7ZgwPpmVOWSZQ&usqp=CAU);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-barroco-no-brasil:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
+
+.item-flexbox-links-modernismo-no-brasil {
+    background-image: url(https://cdn.culturagenial.com/imagens/abaporu-2-cke.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-modernismo-no-brasil:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
+
+.item-flexbox-links-modernismo {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Untitled_%281917%29_-_Amadeo_de_Souza-Cardoso_%281887-1918%29.jpg/220px-Untitled_%281917%29_-_Amadeo_de_Souza-Cardoso_%281887-1918%29.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-modernismo:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
+
+.item-flexbox-links-arte-greco-romana {
+    background-image: url(https://artemisacorreia.files.wordpress.com/2016/10/60af9b9bd65f306317c011b5552ed881.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-arte-greco-romana:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
+
+.item-flexbox-links-arte-na-atualidade {
+    background-image: url(https://s2.glbimg.com/1K4tTUhIMYBrUFyd6zPRUNfQ2vw=/620x455/e.glbimg.com/og/ed/f/original/2021/12/09/the-merge-park-casaejardim.jpeg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s all;
+    animation: background-links-out .2s linear;
+}
+
+.item-flexbox-links-arte-na-atualidade:hover {
+    background-size: 120%;
+    filter: saturate(0.6);
+    animation: background-links-in .2s linear;
+
+}
