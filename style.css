@@ -2,7 +2,7 @@
 
 :root {
 	--roxo: #d59bf6;
-	--azul: #118ab2;
+	--rosa: #ec729c;
 	--preto: #262626;
 	--cinza: #646464;
 	--branco: #f1f1f1;
@@ -31,7 +31,7 @@
 }
 
 .bg-azul {
-	background-color: var(--azul);
+	background-color: var(--rosa);
 }
 
 .bg-cinza {
