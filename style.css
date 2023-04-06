@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=M+PLUS+Rounded+1c:wght@500&family=Pacifico&display=swap");
 
 :root {
-	--azulmeioverde: #66bfbf;
+	--azul: #66bfbf;
 	--rosa: #f76b8a;
 	--preto: #262626;
 	--cinza: #646464;
@@ -23,7 +23,7 @@
 	font-family: var(--fonte-estilizada);
 }
 .vermelho {
-	color: var(--azulmeioverde);
+	color: var(--azul);
 }
 
 .fonte-principal {
