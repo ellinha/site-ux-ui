@@ -70,67 +70,6 @@
 	text-align: justify;
 }
 
-:root {
-    --verde-if: #006600;
-    --verde-if-escuro: #00420c;
-    --verde-if-claro: #71C837;
-    --bege-if: #e8e7e7;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-
-.titulo-teoria{
-  font-family: Georgia, serif;
-   text-align: center;
-  font-size: 50px;
-  color: 	#005700;
-}
-
-.subtitulo-teoria{
-  font-family: Georgia, serif;
-   text-align: left;
-  font-size: 30px;
-  color: 	#546732;
-}
-
-.sub-subtitulo-teoria{
-  font-family: Georgia, serif;
-   text-align: left;
-  font-size: 22px;
-  color: 	#49794f;
-}
-
-.paragrafo-teoria{
-  text-align: justify;
-  font-family: Times, Times New Roman, serif;
-  font-size: 17px;
-  letter-spacing: 0.7px;
-}
-
-.image-teoria {
-  text-align: center;
-}
-
-.imagem-borda-teoria{
-  border-radius: 10px;
-}
-
-.titulo-questao{
-  font-family: arial;
-  font-size: 20px;
-  text-align: justify;
-}
-
-.paragrafo-questao{
-  font-family: arial;
-  font-size: 17px;
-  text-align: justify;
-}
 
 .main-raised {
     text-align: center;
@@ -452,19 +391,6 @@
 
 }
 
-:root {
-    --verde-if: #006600;
-    --verde-if-escuro: #00420c;
-    --verde-if-claro: #71C837;
-    --bege-if: #e8e7e7;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
 .body-pagina-principal {
     background-image: url(img/fundodois.png);
     width: 100%;
@@ -482,72 +408,8 @@
     color: var(--verde-if-escuro);
 }
 
-.titulo {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.titulo-artes {
-    font-size: 130px;
-    text-decoration: underline var(--verde-if-claro);
-}
-
-.subtitulo-artes {
-    font-size: 32px;
-    color: var(--verde-if);
-
-}
-
-.sub-subtitulo-artes {
-    font-size: 32px;
-    color: var(--verde-if);
-}
-
-.titulo-teoria{
-  font-family: Georgia, serif;
-   text-align: center;
-  font-size: 50px;
-  color: 	#005700;
-}
-
-.subtitulo-teoria{
-  font-family: Georgia, serif;
-   text-align: left;
-  font-size: 30px;
-  color: 	#546732;
-}
-
-.sub-subtitulo-teoria{
-  font-family: Georgia, serif;
-   text-align: left;
-  font-size: 22px;
-  color: 	#49794f;
-}
-
-.paragrafo-teoria{
-  text-align: justify;
-  font-family: Times, Times New Roman, serif;
-  font-size: 17px;
-  letter-spacing: 0.7px;
-}
-
-.image-teoria {
-  text-align: center;
-}
-
 .imagem-borda-teoria{
   border-radius: 10px;
-}
-
-.titulo-questao{
-  font-family: arial;
-  font-size: 20px;
-  text-align: justify;
-}
-
-.paragrafo-questao{
-  font-family: arial;
-  font-size: 17px;
-  text-align: justify;
 }
 
 .main-raised {
@@ -965,24 +827,4 @@ pre {
 
 h2 {
     margin-bottom: 15px;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    background-color: var(--verde-if-escuro);
-    width: 100%;
-    color: white;
-}
-
-footer p {
-    text-align: center;
-    padding-top: .5%;
-    padding-bottom: .5%;
-}
-
-#paragrafo-footer {
-    font-size: 12px;
-    font-weight: 200;
-    margin: 0;
 }
